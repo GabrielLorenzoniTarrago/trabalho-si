@@ -1,1 +1,25 @@
-pesquisa iaas saas paas
+A computação em nuvem oferece três principais modelos de serviço: IaaS, PaaS e SaaS.
+
+1. IaaS (Infraestrutura como Serviço):
+
+- **Infraestrutura Virtualizada:** Recursos de hardware, como servidores, armazenamento e redes, disponibilizados virtualmente pela nuvem.
+- **Máquinas Virtuais (VMs):** Instâncias de servidores virtuais que podem ser configuradas conforme as necessidades do usuário.
+- **Escalabilidade sob Demanda:** Capacidade de ajustar recursos computacionais conforme a demanda, pagando apenas pelo que é utilizado.
+- **Exemplos de IaaS:** Amazon Web Services (AWS), Microsoft Azure, Google Cloud Platform.
+
+2. PaaS (Plataforma como Serviço):
+
+- **Ambiente de Desenvolvimento:** Plataforma que fornece ferramentas e serviços para desenvolvimento, teste e implantação de aplicações.
+- **Gerenciamento de Banco de Dados:** Serviços que facilitam a administração de bancos de dados, incluindo backups e escalabilidade.
+- **Serviços de Middleware:** Software que conecta aplicações com sistemas operacionais e bancos de dados, simplificando a comunicação.
+- **Exemplos de PaaS:** Google App Engine, Red Hat OpenShift, Heroku.
+
+3. SaaS (Software como Serviço):
+
+- **Aplicações Baseadas na Web:** Softwares acessíveis via navegador, eliminando a necessidade de instalação local.
+- **Modelos de Assinatura:** Licenciamento de software baseado em assinatura, permitindo acesso contínuo às atualizações.
+- **Acessibilidade e Mobilidade:** Acesso a aplicações de qualquer lugar com conexão à internet, facilitando o trabalho remoto.
+- **Exemplos de SaaS:** Google Workspace, Microsoft Office 365, Salesforce.
+
+Cada modelo oferece diferentes níveis de controle, flexibilidade e gestão, permitindo que empresas escolham a solução que melhor se adapta às suas necessidades específicas.
+
