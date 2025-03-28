@@ -1,0 +1,75 @@
+ 1. **TCP (Transmission Control Protocol)**:
+   - **Definição**: Protocolo de controle de transmissão. Ele é responsável por garantir que os dados enviados entre dois dispositivos na rede sejam entregues corretamente, em ordem e sem erros.
+   - **Função**: Estabelece uma conexão entre o cliente e o servidor antes de enviar dados, garantindo que a comunicação seja confiável. Se algum pacote de dados se perder ou for corrompido, o TCP solicita sua retransmissão.
+
+ 2. **IP (Internet Protocol)**:
+   - **Definição**: Protocolo de Internet. Ele é responsável por endereçar e encaminhar pacotes de dados entre dispositivos na rede, garantindo que cheguem ao destino correto.
+   - **Função**: O IP identifica de forma única os dispositivos na rede por meio de endereços IP (IPv4 ou IPv6) e define a estrutura dos pacotes de dados para roteamento eficiente.
+
+ 3. **IPV4 (Internet Protocol Version 4)**:
+   - **Definição**: Versão 4 do Protocolo de Internet. É o sistema de endereçamento mais utilizado na internet, que usa endereços de 32 bits (4 octetos) para identificar dispositivos.
+   - **Função**: Atribui um endereço único a cada dispositivo na rede, permitindo o roteamento de pacotes.
+
+ 4. **IPV6 (Internet Protocol Version 6)**:
+   - **Definição**: Versão 6 do Protocolo de Internet. Esta versão foi desenvolvida para resolver o problema do esgotamento de endereços IPv4 e usa endereços de 128 bits.
+   - **Função**: Permite um número praticamente ilimitado de endereços únicos, o que é essencial para a expansão contínua da internet.
+
+ 5. **Porta**:
+   - **Definição**: Número que identifica uma aplicação ou serviço em um dispositivo na rede. Cada serviço que roda em um dispositivo de rede escuta uma porta específica.
+   - **Função**: Facilita a comunicação entre aplicativos em um mesmo dispositivo ou entre dispositivos diferentes.
+
+ 6. Socket:
+   - **Definição**: Interface de comunicação entre duas máquinas, usando um endereço IP e um número de porta para estabelecer uma conexão.
+   - **Função**: Combina o endereço IP com a porta para estabelecer uma "conversa" entre os processos.
+
+ 7. Handshake (Aperto de Mão):
+   - **Definição**: Processo de estabelecimento de uma conexão TCP entre dois dispositivos. É um protocolo de três etapas (SYN, SYN-ACK, ACK) que garante que ambos os lados estejam prontos para a comunicação.
+   - **Função**: Antes de qualquer dado ser transmitido, é necessário garantir que ambos os dispositivos concordem em estabelecer a conexão.
+
+ 8. Roteador**:
+   - **Definição**: Dispositivo de rede responsável por encaminhar pacotes de dados entre diferentes redes.
+   - **Função**: Utiliza o endereço IP para determinar o melhor caminho para enviar os pacotes entre os dispositivos.
+
+ 9. Gateway:
+   - **Definição**: Ponto de entrada ou saída entre diferentes redes, conectando redes de diferentes tipos ou protocolos.
+   - **Função**: Traduz dados entre redes com protocolos diferentes, permitindo que se comuniquem.
+
+ 10. Máscara de Sub-rede (Subnet Mask):
+   - **Definição**: Um número utilizado para dividir um endereço IP em duas partes: uma para identificar a rede e outra para identificar o host.
+   - **Função**: Ajuda na segmentação e organização de redes, determinando quais endereços IP pertencem à mesma rede.
+
+ 11. Roteamento:
+   - Definição: Processo de enviar pacotes de dados de um ponto a outro através de múltiplos dispositivos de rede, como roteadores.
+   - **Função**: Determina o melhor caminho para os pacotes de dados até o destino.
+
+ 12. **Protocolo de Controle de Congestionamento (TCP Congestion Control)**:
+   - **Definição**: Conjunto de técnicas usadas pelo TCP para evitar congestionamento na rede, ajustando a quantidade de dados enviados.
+   - **Função**: Regula a quantidade de dados que podem ser enviados sem causar congestionamento ou perda de pacotes.
+
+ 13. **Segmento**:
+   - **Definição**: Unidade de dados usada pelo protocolo TCP. É o pacote de dados que contém informações de controle, como números de sequência e verificações de erro.
+   - **Função**: Garantir que os dados sejam transmitidos de forma confiável, dividindo-os em pedaços menores que podem ser enviados com mais facilidade.
+
+ 14. ARP (Address Resolution Protocol):
+   - **Definição**: Protocolo utilizado para mapear um endereço IP a um endereço MAC (Media Access Control) na camada de enlace de dados.
+   - **Função**: Usado para determinar o endereço físico de um dispositivo a partir do seu endereço IP.
+
+ 15. Ping:
+   - **Definição**: Ferramenta de diagnóstico que utiliza pacotes ICMP (Internet Control Message Protocol) para verificar a conectividade entre dispositivos em uma rede.
+   - **Função**: Mede o tempo de resposta entre o envio de um pacote e o recebimento de sua resposta, ajudando a testar a disponibilidade de um dispositivo na rede.
+
+16. DNS (Domain Name System)**:
+   - **Definição**: Sistema que traduz nomes de domínio (como www.exemplo.com) em endereços IP.
+   - **Função**: Permite que os usuários acessem websites e serviços pela URL, enquanto a rede utiliza endereços IP.
+
+ 17. ICMP (Internet Control Message Protocol)**:
+   - Definição: Protocolo de controle de mensagens da internet, utilizado para enviar mensagens de erro e controle sobre a comunicação de rede.
+   - **Função**: Ajuda na comunicação de erros de rede e diagnóstico, como o comando `ping`.
+
+ 18. Tráfego:
+   - **Definição**: Volume de dados transmitidos em uma rede em um determinado período de tempo.
+   - **Função**: Refere-se à quantidade de dados que trafegam na rede, e sua gestão é essencial para evitar congestionamentos e garantir o desempenho.
+
+ 19. Firewall:
+   - Definição: Dispositivo ou software de segurança que monitora e controla o tráfego de entrada e saída em uma rede.
+   - Função: Protege a rede contra acessos não autorizados e ataques externos, filtrando pacotes com base em regras predefinidas.
