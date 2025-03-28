@@ -1,1 +1,31 @@
-iot pesquisa
+A Internet das Coisas (IoT) refere-se à interconexão de objetos físicos à internet, permitindo que dispositivos coletem, compartilhem e processem dados de forma autônoma.
+
+1. IoT (Internet das Coisas):** Conjunto de objetos físicos conectados à internet, capazes de coletar e compartilhar dados. citeturn0search5
+
+2. Dispositivo Inteligente:** Objeto físico equipado com sensores, software e conectividade que permite a coleta e troca de dados.
+
+3. Sensor:** Dispositivo que detecta eventos ou mudanças no ambiente físico e converte essas informações em dados digitais.
+
+4. Atuação (Actuation):** Processo pelo qual um dispositivo IoT executa uma ação física em resposta a dados recebidos ou processados.
+
+5. Gateway IoT:** Dispositivo que conecta dispositivos IoT a redes maiores, facilitando a comunicação entre dispositivos locais e a nuvem.
+
+6. Nuvem (Cloud):** Infraestrutura de servidores remotos que armazenam, processam e gerenciam dados coletados por dispositivos IoT.
+
+7. M2M (Machine-to-Machine):** Comunicação direta entre dispositivos sem intervenção humana, permitindo automação e eficiência.
+
+8. Protocolos de Comunicação:** Conjuntos de regras que determinam como os dispositivos IoT trocam dados, como MQTT, CoAP e AMQP.
+
+9. Big Data:** Grandes volumes de dados gerados por dispositivos IoT que, quando analisados, podem fornecer insights valiosos para negócios e operações.
+
+10. Analytics (Análise de Dados):** Processo de examinar dados coletados para descobrir padrões, correlações e insights úteis para a tomada de decisões.
+
+11. Edge Computing (Computação de Borda):** Processamento de dados próximo à fonte de geração (no dispositivo ou gateway), reduzindo latência e largura de banda necessária.
+
+12. Segurança IoT:** Práticas e tecnologias que protegem dispositivos IoT e dados contra acessos não autorizados e ataques cibernéticos.
+
+13. Interoperabilidade:** Capacidade de diferentes dispositivos e sistemas IoT trabalharem juntos de forma eficaz, apesar de diferenças de fabricantes ou tecnologias.
+
+14. Indústria 4.0:** Aplicação de IoT e outras tecnologias avançadas na manufatura, visando automação, eficiência e personalização.
+
+15. Cidades Inteligentes:** Uso de IoT para gerenciar e melhorar serviços urbanos, como iluminação pública, trânsito e segurança.
