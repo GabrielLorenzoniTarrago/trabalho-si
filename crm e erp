@@ -1,0 +1,30 @@
+
+CRM (Customer Relationship Management)
+
+Sistema voltado para a **gestão do relacionamento com o cliente**. Ajuda as empresas a acompanhar interações, gerenciar vendas, melhorar o atendimento e fidelizar clientes.
+
+* **Lead**: Potencial cliente que demonstrou interesse no produto ou serviço.
+* **Oportunidade**: Quando um lead é qualificado e tem chances reais de se tornar cliente.
+* **Funil de vendas**: Representação das etapas do processo comercial, do primeiro contato até a venda.
+* **Pipeline**: Visualização das oportunidades de venda em andamento, organizadas por estágio.
+* **Ticket**: Registro de atendimento ou suporte solicitado por um cliente.
+* **Follow-up**: Acompanhamento feito com o cliente após uma ação, como uma reunião ou envio de proposta.
+
+---
+
+### ERP Enterprise Resource Planning
+
+Sistema integrado para **gestão de processos internos** da empresa, como finanças, estoque, produção, compras, RH, entre outros. O objetivo é centralizar e automatizar as operações.
+
+* **Módulos**: Partes do ERP responsáveis por áreas específicas (ex: módulo financeiro, contábil, estoque, etc.).
+* **Ordem de compra**: Documento criado no ERP para formalizar a aquisição de produtos ou serviços.
+* **Nota fiscal eletrônica (NF-e)**: Documento fiscal gerado e armazenado digitalmente via ERP.
+* **Fluxo de caixa**: Controle de entradas e saídas de dinheiro da empresa, registrado no ERP.
+* **Inventário**: Registro de todos os itens em estoque, monitorado pelo sistema.
+* **Integração**: Capacidade do ERP de se conectar com outros sistemas (como o CRM) para trocar dados.
+
+
+
+Integração CRM + ERP
+
+Ao integrar CRM e ERP, a empresa conecta as áreas de vendas e atendimento (CRM) com as áreas operacionais e financeiras (ERP), garantindo um **fluxo de informações contínuo e eficiente**.
