@@ -19,10 +19,7 @@ A criptografia envolve a transformação de dados legíveis (plaintext) em dados
 3. *Chave: A chave é o "segredo" que o algoritmo usa para transformar os dados. A chave pode ser simétrica ou assimétrica, conforme explicamos anteriormente.
 4. *Ciphertext: O resultado da criptografia é o texto cifrado, que é a versão ilegível da informação original.
 
- Processo de Descriptografia:
-
-1. O destinatário usa a mesma chave (no caso de criptografia simétrica) ou a chave correspondente (no caso de criptografia assimétrica) para reverter o ciphertext para o seu formato original, chamado de **plaintext**.
-
+ Processo de Descriptografia: O destinatário usa a mesma chave (no caso de criptografia simétrica) ou a chave correspondente (no caso de criptografia assimétrica) para reverter o ciphertext para o seu formato original, chamado de **plaintext**.
 
  3. Hashing
 
@@ -39,7 +36,6 @@ A assinatura digital é uma técnica que utiliza criptografia assimétrica para 
 
 * O remetente cria uma assinatura digital ao criptografar um hash (resumo) da mensagem com sua chave privada.
 * O destinatário pode verificar a assinatura digital com a chave pública do remetente para garantir que a mensagem foi realmente enviada por ele e que não foi alterada.
-
 
 A criptografia está presente em muitos sistemas que usamos diariamente, como:
 
