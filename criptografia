@@ -14,14 +14,14 @@ A criptografia envolve a transformação de dados legíveis (plaintext) em dados
 
  O Processo de Criptografia:
 
-1. *Plaintext**: São os dados originais, ou seja, a informação que você deseja proteger.
-2. *Algoritmo de Criptografia**: A criptografia é feita utilizando um algoritmo matemático que aplica uma série de operações nos dados originais (plain text), utilizando uma chave secreta (ou pública).
-3. *Chave**: A chave é o "segredo" que o algoritmo usa para transformar os dados. A chave pode ser simétrica ou assimétrica, conforme explicamos anteriormente.
-4. *Ciphertext**: O resultado da criptografia é o texto cifrado, que é a versão ilegível da informação original.
+1. *Plaintext: São os dados originais, ou seja, a informação que você deseja proteger.
+2. *Algoritmo de Criptografia: A criptografia é feita utilizando um algoritmo matemático que aplica uma série de operações nos dados originais (plain text), utilizando uma chave secreta (ou pública).
+3. *Chave: A chave é o "segredo" que o algoritmo usa para transformar os dados. A chave pode ser simétrica ou assimétrica, conforme explicamos anteriormente.
+4. *Ciphertext: O resultado da criptografia é o texto cifrado, que é a versão ilegível da informação original.
 
  Processo de Descriptografia:
 
-1. O destinatário usa a **mesma chave** (no caso de criptografia simétrica) ou a **chave correspondente** (no caso de criptografia assimétrica) para reverter o ciphertext para o seu formato original, chamado de **plaintext**.
+1. O destinatário usa a mesma chave (no caso de criptografia simétrica) ou a chave correspondente (no caso de criptografia assimétrica) para reverter o ciphertext para o seu formato original, chamado de **plaintext**.
 
 
  3. Hashing
@@ -30,15 +30,15 @@ O hashing é um processo de criptografia unidirecional. Ou seja, você **não po
 
 Exemplo de algoritmos de hashing:
 
-* **MD5**: Antigo e considerado vulnerável, não recomendado para segurança.
-* **SHA-256**: Parte da família de funções SHA (Secure Hash Algorithm), bastante usado em sistemas seguros.
+* MD5: Antigo e considerado vulnerável, não recomendado para segurança.
+* SHA-256: Parte da família de funções SHA (Secure Hash Algorithm), bastante usado em sistemas seguros.
 
  4. Assinatura Digital
 
 A assinatura digital é uma técnica que utiliza criptografia assimétrica para verificar a autenticidade de uma mensagem ou documento. Ela funciona da seguinte maneira:
 
-* O remetente cria uma **assinatura digital** ao criptografar um hash (resumo) da mensagem com sua chave privada.
-* O destinatário pode verificar a assinatura digital com a **chave pública** do remetente para garantir que a mensagem foi realmente enviada por ele e que não foi alterada.
+* O remetente cria uma assinatura digital ao criptografar um hash (resumo) da mensagem com sua chave privada.
+* O destinatário pode verificar a assinatura digital com a chave pública do remetente para garantir que a mensagem foi realmente enviada por ele e que não foi alterada.
 
 
 A criptografia está presente em muitos sistemas que usamos diariamente, como:
@@ -59,14 +59,6 @@ A criptografia está presente em muitos sistemas que usamos diariamente, como:
 1. O remetente usa a chave secreta para criptografar os dados.
 2. O destinatário usa a mesma chave para descriptografar os dados.
 3. Ambos precisam conhecer a chave previamente, de forma segura.
-
- Exemplo ilustrativo:
-
-Imagine que Alice quer enviar uma mensagem para Bob:
-
-* Alice usa a chave "X1Y2Z3" para criptografar a mensagem: "Olá, Bob!".
-* Ela envia a mensagem criptografada para Bob.
-* Bob usa a mesma chave "X1Y2Z3" para descriptografar e ler a mensagem.
 
  Exemplos de algoritmos simétricos:
 
