@@ -21,7 +21,7 @@ Uma empresa usa o CRM para registrar:
 * Quais produtos ele demonstrou interesse.
 * Se ele abriu e-mails da campanha enviada.
 
-### Vantagens do CRM:
+ Vantagens do CRM:
 
 * Melhora o relacionamento com os clientes.
 * Aumenta as taxas de conversão de vendas.
@@ -37,11 +37,11 @@ Uma empresa usa o CRM para registrar:
 
 ERP significa **Enterprise Resource Planning**, ou **Planejamento dos Recursos da Empresa**.
 
-### Objetivo principal:
+ Objetivo principal:
 
 Integrar **todos os processos operacionais** de uma empresa em um **sistema único**, permitindo controle e eficiência.
 
-### Funcionalidades principais:
+ Funcionalidades principais:
 
 * **Gestão financeira**: Controle de contas a pagar, a receber, fluxo de caixa, contabilidade.
 * **Controle de estoque**: Entrada e saída de produtos, inventário, rastreamento de materiais.
@@ -50,7 +50,7 @@ Integrar **todos os processos operacionais** de uma empresa em um **sistema úni
 * **Gestão de recursos humanos**: Folha de pagamento, ponto eletrônico, benefícios, recrutamento.
 * **Faturamento e vendas**: Emissão de notas fiscais, pedidos de venda, integração com e-commerce.
 
-### Exemplo prático:
+Exemplo prático:
 
 Quando uma venda é registrada no sistema:
 
@@ -59,7 +59,7 @@ Quando uma venda é registrada no sistema:
 * A **contabilidade** registra a receita.
 * O **financeiro** registra a entrada no fluxo de caixa.
 
-### Vantagens do ERP:
+ Vantagens do ERP:
 
 * Integra todos os setores da empresa em tempo real.
 * Reduz retrabalho e erros humanos.
@@ -67,7 +67,7 @@ Quando uma venda é registrada no sistema:
 * Facilita o cumprimento de obrigações fiscais e legais.
 * Aumenta a eficiência operacional.
 
-### Desvantagens do ERP:
+ Desvantagens do ERP:
 
 * Implementação pode ser cara e demorada.
 * Requer mudanças estruturais nos processos internos.
@@ -86,13 +86,12 @@ Quando uma venda é registrada no sistema:
 | Benefícios              | Melhora o atendimento ao cliente | Melhora a eficiência interna            |
 | Informações gerenciadas | Dados de clientes e vendas       | Recursos e operações da empresa         |
 
----
 
-## Como CRM e ERP podem trabalhar juntos?
+ Como CRM e ERP podem trabalhar juntos?
 
 Apesar de terem finalidades diferentes, **CRM e ERP são complementares**. Quando integrados, proporcionam uma visão completa da empresa, do ponto de vista **externo (cliente)** e **interno (operações)**.
 
-### Exemplo de integração:
+ Exemplo de integração:
 
 1. Um vendedor fecha uma venda usando o CRM.
 2. O pedido de venda é enviado automaticamente para o ERP.
@@ -101,11 +100,10 @@ Apesar de terem finalidades diferentes, **CRM e ERP são complementares**. Quand
 
 Essa integração evita retrabalho, reduz erros e acelera os processos.
 
----
 
-## Exemplos de sistemas CRM e ERP
+ Exemplos de sistemas CRM e ERP
 
-### Exemplos de CRM:
+ Exemplos de CRM:
 
 * Salesforce
 * HubSpot
@@ -113,21 +111,13 @@ Essa integração evita retrabalho, reduz erros e acelera os processos.
 * RD Station CRM
 * Pipedrive
 
-### Exemplos de ERP:
+ Exemplos de ERP:
 
 * SAP
 * TOTVS
 * Oracle NetSuite
 * Microsoft Dynamics 365
 * Bling (para pequenas empresas)
-
----
-
-## Conclusão
-
-* **CRM** é voltado para **o relacionamento com o cliente**, ajudando a atrair, converter e fidelizar.
-* **ERP** é voltado para **a gestão dos recursos da empresa**, integrando áreas internas e automatizando operações.
-
 Juntos, eles ajudam as empresas a **funcionar de forma eficiente**, atender melhor seus clientes e tomar decisões baseadas em dados reais.
 
 Se quiser, posso mostrar um exemplo de fluxo de dados entre CRM e ERP, ou indicar softwares gratuitos ou pagos com base nas necessidades da sua empresa. Deseja seguir por esse caminho?
