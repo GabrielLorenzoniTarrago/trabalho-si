@@ -1,8 +1,5 @@
 Criptografia é a prática de proteger informações, transformando-as em um formato ilegível para que só pessoas autorizadas possam lê-las. O principal objetivo da criptografia é garantir a confidencialidade dos dados, impedindo que terceiros possam acessar ou modificar informações sensíveis.
 
-
- Por que a Criptografia é Importante?
-
 A criptografia é fundamental para garantir a segurança em diversos contextos. Alguns dos principais motivos para utilizá-la incluem:
 
 1. *Confidencialidade: Garante que somente quem tem a chave correta pode acessar a informação.
@@ -13,14 +10,14 @@ A criptografia é fundamental para garantir a segurança em diversos contextos. 
 
  Como Funciona a Criptografia?
 
-A criptografia envolve a **transformação de dados legíveis (plaintext)** em **dados ilegíveis (ciphertext)**, utilizando um algoritmo e uma chave.
+A criptografia envolve a transformação de dados legíveis (plaintext) em dados ilegíveis (ciphertext), utilizando um algoritmo e uma chave.
 
  O Processo de Criptografia:
 
-1. **Plaintext**: São os dados originais, ou seja, a informação que você deseja proteger.
-2. **Algoritmo de Criptografia**: A criptografia é feita utilizando um algoritmo matemático que aplica uma série de operações nos dados originais (plain text), utilizando uma chave secreta (ou pública).
-3. **Chave**: A chave é o "segredo" que o algoritmo usa para transformar os dados. A chave pode ser simétrica ou assimétrica, conforme explicamos anteriormente.
-4. **Ciphertext**: O resultado da criptografia é o texto cifrado, que é a versão ilegível da informação original.
+1. *Plaintext**: São os dados originais, ou seja, a informação que você deseja proteger.
+2. *Algoritmo de Criptografia**: A criptografia é feita utilizando um algoritmo matemático que aplica uma série de operações nos dados originais (plain text), utilizando uma chave secreta (ou pública).
+3. *Chave**: A chave é o "segredo" que o algoritmo usa para transformar os dados. A chave pode ser simétrica ou assimétrica, conforme explicamos anteriormente.
+4. *Ciphertext**: O resultado da criptografia é o texto cifrado, que é a versão ilegível da informação original.
 
  Processo de Descriptografia:
 
@@ -36,23 +33,20 @@ Exemplo de algoritmos de hashing:
 * **MD5**: Antigo e considerado vulnerável, não recomendado para segurança.
 * **SHA-256**: Parte da família de funções SHA (Secure Hash Algorithm), bastante usado em sistemas seguros.
 
-### 4. **Assinatura Digital**
+ 4. Assinatura Digital
 
 A assinatura digital é uma técnica que utiliza criptografia assimétrica para verificar a autenticidade de uma mensagem ou documento. Ela funciona da seguinte maneira:
 
 * O remetente cria uma **assinatura digital** ao criptografar um hash (resumo) da mensagem com sua chave privada.
 * O destinatário pode verificar a assinatura digital com a **chave pública** do remetente para garantir que a mensagem foi realmente enviada por ele e que não foi alterada.
 
----
-
- Como a Criptografia é Usada no Dia a Dia?
 
 A criptografia está presente em muitos sistemas que usamos diariamente, como:
 
-* **Conexões seguras em sites (HTTPS)**: Criptografia usada para garantir que os dados trocados entre o navegador e o servidor estejam protegidos.
-* **E-mail seguro**: Criptografia para garantir que apenas o destinatário autorizado possa ler o conteúdo da mensagem.
-* **Pagamentos online**: Criptografia é usada para garantir que os dados do cartão de crédito sejam protegidos durante a transação.
-* **Aplicativos de mensagens**: Mensagens criptografadas, como no WhatsApp, garantem que apenas você e a pessoa com quem está conversando possam ler as mensagens.
+* Conexões seguras em sites (HTTPS)**: Criptografia usada para garantir que os dados trocados entre o navegador e o servidor estejam protegidos.
+* E-mail seguro**: Criptografia para garantir que apenas o destinatário autorizado possa ler o conteúdo da mensagem.
+* Pagamentos online**: Criptografia é usada para garantir que os dados do cartão de crédito sejam protegidos durante a transação.
+* Aplicativos de mensagens**: Mensagens criptografadas, como no WhatsApp, garantem que apenas você e a pessoa com quem está conversando possam ler as mensagens.
 
  Tipos de Criptografia
 
@@ -112,12 +106,6 @@ As chaves são matematicamente relacionadas: o que uma chave criptografa, só a 
 
 1. Bob assina uma mensagem com sua chave privada.
 2. Qualquer pessoa pode verificar a autenticidade com a chave pública de Bob.
-
-### Exemplo ilustrativo:
-
-* Alice baixa a chave pública de Bob (ela é pública).
-* Alice criptografa a mensagem e envia para Bob.
-* Bob usa sua chave privada para abrir a mensagem.
 
  Exemplos de algoritmos assimétricos:
 
