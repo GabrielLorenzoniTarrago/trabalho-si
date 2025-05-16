@@ -1,24 +1,72 @@
-criptografia
-## O que são Chaves Criptográficas?
-
-Chaves criptográficas são sequências de bits usadas em algoritmos de criptografia para criptografar (embaralhar) e descriptografar (desembaralhar) informações. Elas são fundamentais para garantir confidencialidade, integridade e autenticidade de dados.
-
-Existem dois principais tipos de chaves criptográficas:
+Criptografia é a prática de proteger informações, transformando-as em um formato ilegível para que só pessoas autorizadas possam lê-las. O principal objetivo da criptografia é garantir a confidencialidade dos dados, impedindo que terceiros possam acessar ou modificar informações sensíveis.
 
 
-## Chave Simétrica (Criptografia Simétrica)
+ Por que a Criptografia é Importante?
 
-### Definição:
+A criptografia é fundamental para garantir a segurança em diversos contextos. Alguns dos principais motivos para utilizá-la incluem:
 
-É um tipo de criptografia onde a mesma chave é usada tanto para criptografar quanto para descriptografar a informação.
+1. *Confidencialidade: Garante que somente quem tem a chave correta pode acessar a informação.
+2. *Integridade: Assegura que os dados não foram alterados ou corrompidos durante o trânsito.
+3. *Autenticação: Permite verificar a identidade das partes envolvidas na comunicação.
+4. *Não repúdio: Impede que uma pessoa negue a autoria de uma mensagem (relacionado à assinatura digital).
 
-### Como funciona:
+
+ Como Funciona a Criptografia?
+
+A criptografia envolve a **transformação de dados legíveis (plaintext)** em **dados ilegíveis (ciphertext)**, utilizando um algoritmo e uma chave.
+
+ O Processo de Criptografia:
+
+1. **Plaintext**: São os dados originais, ou seja, a informação que você deseja proteger.
+2. **Algoritmo de Criptografia**: A criptografia é feita utilizando um algoritmo matemático que aplica uma série de operações nos dados originais (plain text), utilizando uma chave secreta (ou pública).
+3. **Chave**: A chave é o "segredo" que o algoritmo usa para transformar os dados. A chave pode ser simétrica ou assimétrica, conforme explicamos anteriormente.
+4. **Ciphertext**: O resultado da criptografia é o texto cifrado, que é a versão ilegível da informação original.
+
+ Processo de Descriptografia:
+
+1. O destinatário usa a **mesma chave** (no caso de criptografia simétrica) ou a **chave correspondente** (no caso de criptografia assimétrica) para reverter o ciphertext para o seu formato original, chamado de **plaintext**.
+
+
+ 3. Hashing
+
+O hashing é um processo de criptografia unidirecional. Ou seja, você **não pode reverter** a operação de hash para obter os dados originais. O hashing é usado principalmente para verificar a integridade dos dados, como ao armazenar senhas ou garantir que um arquivo não tenha sido alterado.
+
+Exemplo de algoritmos de hashing:
+
+* **MD5**: Antigo e considerado vulnerável, não recomendado para segurança.
+* **SHA-256**: Parte da família de funções SHA (Secure Hash Algorithm), bastante usado em sistemas seguros.
+
+### 4. **Assinatura Digital**
+
+A assinatura digital é uma técnica que utiliza criptografia assimétrica para verificar a autenticidade de uma mensagem ou documento. Ela funciona da seguinte maneira:
+
+* O remetente cria uma **assinatura digital** ao criptografar um hash (resumo) da mensagem com sua chave privada.
+* O destinatário pode verificar a assinatura digital com a **chave pública** do remetente para garantir que a mensagem foi realmente enviada por ele e que não foi alterada.
+
+---
+
+ Como a Criptografia é Usada no Dia a Dia?
+
+A criptografia está presente em muitos sistemas que usamos diariamente, como:
+
+* **Conexões seguras em sites (HTTPS)**: Criptografia usada para garantir que os dados trocados entre o navegador e o servidor estejam protegidos.
+* **E-mail seguro**: Criptografia para garantir que apenas o destinatário autorizado possa ler o conteúdo da mensagem.
+* **Pagamentos online**: Criptografia é usada para garantir que os dados do cartão de crédito sejam protegidos durante a transação.
+* **Aplicativos de mensagens**: Mensagens criptografadas, como no WhatsApp, garantem que apenas você e a pessoa com quem está conversando possam ler as mensagens.
+
+ Tipos de Criptografia
+
+ Chave Simétrica (Criptografia Simétrica)
+
+ Definição: É um tipo de criptografia onde a mesma chave é usada tanto para criptografar quanto para descriptografar a informação.
+
+ Como funciona:
 
 1. O remetente usa a chave secreta para criptografar os dados.
 2. O destinatário usa a mesma chave para descriptografar os dados.
 3. Ambos precisam conhecer a chave previamente, de forma segura.
 
-### Exemplo ilustrativo:
+ Exemplo ilustrativo:
 
 Imagine que Alice quer enviar uma mensagem para Bob:
 
@@ -26,7 +74,7 @@ Imagine que Alice quer enviar uma mensagem para Bob:
 * Ela envia a mensagem criptografada para Bob.
 * Bob usa a mesma chave "X1Y2Z3" para descriptografar e ler a mensagem.
 
-### Exemplos de algoritmos simétricos:
+ Exemplos de algoritmos simétricos:
 
 * AES (Advanced Encryption Standard) – o mais usado atualmente.
 * DES (Data Encryption Standard) – obsoleto, mas histórico.
@@ -34,35 +82,33 @@ Imagine que Alice quer enviar uma mensagem para Bob:
 * RC4, RC5, RC6
 * Blowfish, Twofish
 
-### Vantagens:
+ Vantagens:
 
 * Rápido e eficiente: ideal para grandes volumes de dados.
 * Simples de implementar.
 
-### Desvantagens:
+ Desvantagens:
 
 * Distribuição de chave é um problema: como enviar a chave com segurança?
 * Se alguém interceptar a chave, toda a comunicação está comprometida.
 
 
-## Chave Assimétrica (Criptografia Assimétrica)
+ Chave Assimétrica (Criptografia Assimétrica)
 
-### Definição:
-
-É um tipo de criptografia onde se usa um par de chaves:
+ Definição: É um tipo de criptografia onde se usa um par de chaves:
 
 * Chave pública: pode ser compartilhada com qualquer pessoa.
 * Chave privada: deve ser mantida em segredo.
 
 As chaves são matematicamente relacionadas: o que uma chave criptografa, só a outra pode descriptografar.
 
-### Como funciona:
+ Como funciona:
 
 1. Alice quer enviar uma mensagem segura para Bob.
 2. Alice usa a chave pública de Bob para criptografar a mensagem.
 3. Apenas Bob pode descriptografar com sua chave privada.
 
-### Também funciona para autenticação:
+ Também funciona para autenticação:
 
 1. Bob assina uma mensagem com sua chave privada.
 2. Qualquer pessoa pode verificar a autenticidade com a chave pública de Bob.
@@ -73,25 +119,25 @@ As chaves são matematicamente relacionadas: o que uma chave criptografa, só a 
 * Alice criptografa a mensagem e envia para Bob.
 * Bob usa sua chave privada para abrir a mensagem.
 
-### Exemplos de algoritmos assimétricos:
+ Exemplos de algoritmos assimétricos:
 
 * RSA (Rivest–Shamir–Adleman)
 * ECC (Elliptic Curve Cryptography)
 * ElGamal
 * DSA (Digital Signature Algorithm)
 
-### Vantagens:
+ Vantagens:
 
 * Segurança na troca de chaves: não há necessidade de compartilhar uma chave secreta.
 * Permite assinatura digital e autenticação.
 
-### Desvantagens:
+ Desvantagens:
 
 * Mais lento que criptografia simétrica.
 * Consome mais recursos computacionais, por isso, geralmente não é usado para criptografar grandes volumes de dados.
 
 
-## Exemplo Real de Uso Combinado:
+ Exemplo Real de Uso Combinado:
 
 Na prática, os dois tipos de criptografia são usados juntos.
 
@@ -101,7 +147,6 @@ Por exemplo, em uma conexão HTTPS:
 2. Depois, todo o tráfego é criptografado com essa chave simétrica, pois é mais rápido.
 
 
-## Resumo Comparativo:
 
 | Característica     | Chave Simétrica          | Chave Assimétrica                 |
 | ------------------ | ------------------------ | --------------------------------- |
