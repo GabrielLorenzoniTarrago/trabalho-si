@@ -1,86 +1,80 @@
-A assinatura digital é um mecanismo criptográfico que permite garantir a **autenticidade**, **integridade** e **validade jurídica** de um documento eletrônico. Ela utiliza um par de chaves (pública e privada) e um certificado digital para confirmar a identidade do signatário.
+A assinatura digital é um mecanismo criptográfico que permite garantir a autenticidade, integridade e validade jurídica de um documento eletrônico. Ela utiliza um par de chaves (pública e privada) e um certificado digital para confirmar a identidade do signatário.
 
 Para que serve?
 
-* **Autenticar a identidade** de quem assina um documento eletrônico.
-* **Assegurar a integridade** do conteúdo assinado (qualquer alteração no arquivo invalida a assinatura).
-* **Garantir o não repúdio**, ou seja, impedir que o autor negue ter assinado o documento.
-* **Validar juridicamente** contratos, petições, declarações e outros documentos, com força legal semelhante à assinatura manuscrita.
+* Autenticar a identidade de quem assina um documento eletrônico.
+* Assegurar a integridade do conteúdo assinado (qualquer alteração no arquivo invalida a assinatura).
+* Garantir o não repúdio, ou seja, impedir que o autor negue ter assinado o documento.
+* Validar juridicamente contratos, petições, declarações e outros documentos, com força legal semelhante à assinatura manuscrita.
 
 Em que situações é útil?
 
-* **Assinatura de contratos eletrônicos** (comerciais, de trabalho, prestação de serviços).
-* **Transações bancárias** com alto nível de segurança.
-* **Peticionamento eletrônico** no Poder Judiciário (ex.: e-SAJ, PJe).
-Emissão de notas fiscais eletrônicas** (NF-e, NFS-e).
-Atos empresariais digitais** perante a Receita Federal, Juntas Comerciais ou Cartórios.
+Assinatura de contratos eletrônicos (comerciais, de trabalho, prestação de serviços).
+Transações bancárias com alto nível de segurança.
+Peticionamento eletrônico no Poder Judiciário (ex.: e-SAJ, PJe).
+Emissão de notas fiscais eletrônicas (NF-e, NFS-e).
+Atos empresariais digitais perante a Receita Federal, Juntas Comerciais ou Cartórios.
 Assinatura de laudos médicos e prontuários eletrônicos**.
-Processos internos em empresas** (como aprovações digitais e workflows documentais).
+Processos internos em empresas (como aprovações digitais e workflows documentais).
 
-## Glossário de Assinatura Digital
+ A
 
-### A
+* Algoritmo de Assinatura: Conjunto de operações matemáticas utilizadas para criar e verificar assinaturas digitais. Exemplos: RSA, DSA, ECDSA.
 
-* **Algoritmo de Assinatura**: Conjunto de operações matemáticas utilizadas para criar e verificar assinaturas digitais. Exemplos: RSA, DSA, ECDSA.
+* Autoridade Certificadora (AC): Entidade que emite certificados digitais, garantindo a identidade do titular.
 
-* **Autoridade Certificadora (AC)**: Entidade que emite certificados digitais, garantindo a identidade do titular.
+* Autoridade de Registro (AR): Responsável por validar os dados do solicitante antes da emissão do certificado pela AC.
 
-* **Autoridade de Registro (AR)**: Responsável por validar os dados do solicitante antes da emissão do certificado pela AC.
+ C
 
-### C
+* Carimbo do Tempo: Registro confiável de data e hora aplicado a uma assinatura digital para comprovar o momento exato da assinatura.
 
-* **Carimbo do Tempo**: Registro confiável de data e hora aplicado a uma assinatura digital para comprovar o momento exato da assinatura.
+* Certificado Digital: Documento eletrônico que associa uma chave pública a uma identidade. É assinado digitalmente por uma AC.
 
-* **Certificado Digital**: Documento eletrônico que associa uma chave pública a uma identidade. É assinado digitalmente por uma AC.
+* Chave Assimétrica: Par de chaves (pública e privada) usadas para assinatura digital e criptografia.
 
-* **Chave Assimétrica**: Par de chaves (pública e privada) usadas para assinatura digital e criptografia.
+* Chave Privada: Parte do par de chaves usada para gerar a assinatura digital. Deve ser mantida em sigilo.
 
-* **Chave Privada**: Parte do par de chaves usada para gerar a assinatura digital. Deve ser mantida em sigilo.
+* Chave Pública: Parte do par de chaves usada para verificar a autenticidade da assinatura digital.
 
-* **Chave Pública**: Parte do par de chaves usada para verificar a autenticidade da assinatura digital.
-
-### D
+ D
 
 * **Documento Eletrônico**: Arquivo digital que pode ser assinado digitalmente, como PDF, DOCX, XML, etc.
 
-* **Documento Assinado Digitalmente**: Documento eletrônico que contém uma ou mais assinaturas digitais válidas.
+* Documento Assinado Digitalmente: Documento eletrônico que contém uma ou mais assinaturas digitais válidas.
 
-### H
+ H
 
-* **Hash**: Resumo criptográfico único gerado a partir de um conteúdo digital. Qualquer alteração no conteúdo muda o hash, invalidando a assinatura.
+* Hash*: Resumo criptográfico único gerado a partir de um conteúdo digital. Qualquer alteração no conteúdo muda o hash, invalidando a assinatura.
 
-### I
+ I
 
-* **Identidade Digital**: Representação eletrônica de uma pessoa ou empresa associada a um certificado digital.
+* Identidade Digital: Representação eletrônica de uma pessoa ou empresa associada a um certificado digital.
 
-* **Integridade**: Garantia de que os dados de um documento não foram alterados após a assinatura.
+* Integridade: Garantia de que os dados de um documento não foram alterados após a assinatura.
 
-### P
+ P
 
-* **PKI (Public Key Infrastructure)**: Conjunto de tecnologias e políticas que garantem o uso seguro de certificados e assinaturas digitais.
+* PKI (Public Key Infrastructure): Conjunto de tecnologias e políticas que garantem o uso seguro de certificados e assinaturas digitais.
 
-### R
+ R
 
-* **Revogação de Certificado**: Cancelamento do certificado digital antes do prazo de vencimento, por perda, roubo ou comprometimento da chave privada.
+* Revogação de Certificado: Cancelamento do certificado digital antes do prazo de vencimento, por perda, roubo ou comprometimento da chave privada.
 
-### S
+ S
 
-* **Sistema de Assinatura Digital**: Conjunto de recursos técnicos e organizacionais que viabilizam a assinatura e verificação digital de documentos.
+* Sistema de Assinatura Digital: Conjunto de recursos técnicos e organizacionais que viabilizam a assinatura e verificação digital de documentos.
 
 * **Software de Assinatura**: Programas que permitem assinar digitalmente, como Adobe Acrobat, Valid, DocuSign, Assinador Serpro, etc.
 
  T
 
-* **Token Criptográfico**: Dispositivo físico (como um USB ou cartão) que armazena a chave privada com segurança.
+* Token Criptográfico: Dispositivo físico (como um USB ou cartão) que armazena a chave privada com segurança.
 
-* **Timestamp (Carimbo de Tempo)**: Registro que vincula uma data e hora a um documento ou transação eletrônica.
+* Timestamp (Carimbo de Tempo): Registro que vincula uma data e hora a um documento ou transação eletrônica.
 
-### V
+ V
 
-* **Validação de Assinatura**: Processo de verificação da autenticidade da assinatura, da identidade do signatário e da integridade do documento.
+* Validação de Assinatura: Processo de verificação da autenticidade da assinatura, da identidade do signatário e da integridade do documento.
 
-* **Validade Jurídica**: Reconhecimento legal da assinatura digital como equivalente à assinatura manuscrita, conforme legislação aplicável (como a MP 2.200-2/2001 no Brasil).
-
----
-
-Se quiser, posso gerar este conteúdo em PDF ou Word para você salvar ou imprimir. Deseja?
+* Validade Jurídica: Reconhecimento legal da assinatura digital como equivalente à assinatura manuscrita, conforme legislação aplicável (como a MP 2.200-2/2001 no Brasil).
